@@ -1,0 +1,77 @@
+.container {
+    margin: 0 auto;
+    width: 1200px;
+    padding: 20px 0;
+}
+
+.first {
+    background: violet;
+    display: flex;
+}
+
+.first > div {
+    height: 400px;
+    width: 400px;
+    outline: 1px solid red;
+}
+
+.second {
+    background: green;
+    display: flex;
+}
+
+.second-1 {
+    width: 800px;
+}
+
+.second-1 > div {
+    height: 200px;
+    outline: 1px solid red;
+}
+
+.second-2 {
+    width: 400px;
+}
+
+.second-2 > div {
+    height: 133.3px;
+    outline: 1px solid red;
+}
+
+.third {
+    background: gold;
+    display: flex;
+}
+
+.third-1 {
+    width: 400px;
+    height: 400px;
+    outline: 1px solid red;
+}
+
+.third-2 {
+    width: 800px;
+    height: 400px;
+}
+
+.third-2-1 {
+    width: 800px;
+    height: 200px;
+    outline: 1px solid red;
+}
+
+.third-2-2 {
+    display: flex;
+}
+
+.third-2-2-1 {
+    width: 400px;
+    height: 200px;
+    outline: 1px solid red;
+}
+
+.third-2-2-2 > div {
+    width: 400px;
+    height: 100px;
+    outline: 1px solid red;
+}
